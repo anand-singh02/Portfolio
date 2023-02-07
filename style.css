@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      background-color: black;
+}
+.sidebar {
+   
+    width: 16%;
+    height: 100vh;
+    position: fixed;
+    border-right: 1px solid #dfdfdf;
+    padding: 20px;
+    color: white;
+   
+  }
+  .name{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 20px;
+    margin-bottom: 190px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+  .sidebar .name::before{
+    position: absolute;
+    content: '';
+    height: 20px ;
+    width: 20px ;
+    border-bottom: 5px solid #3af0dd;
+    border-left: 5px solid #3af0dd;
+    bottom: 89%;
+    left: 10%;
+    
+  }
+  .sidebar .name::after{
+    position: absolute;
+    content: '';
+    height: 20px ;
+    width: 20px ;
+    border-top: 5px solid #3af0dd;
+    border-right: 5px solid #3af0dd;
+    top: 3%;
+    right: 11%;
+    
+  }
+  #n{
+    color: #3af0dd;
+  }
+.nav {
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 17px;
+  }
+  .nav li a{
+    text-decoration: none;
+    color: white;
+  }
+.nav li{
+    margin: 40px;
+    border-bottom: 1px solid #2d2f2f;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav li:hover{
+    padding: 10px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #3af0dd;
+    border-radius: 20px;
+}
+.home1{
+    margin-left: 17%;
+
+    height: 100vh; background-color: black;
+}
+.left {
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+ .left h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.left #name{
+    color: #3af0dd;
+    transition: 0.6s;
+}
+.left #name:hover{
+    letter-spacing: 12px;
+}
+.left .con{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.left .con span{
+    color: #3af0dd;
+    transition: 0.6s;
+    font-family: sans-serif;
+}
+.left .con span:hover{
+    letter-spacing: 15px;
+}
+.left .c{
+    width: 500px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.left .button{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+   border: 2px solid #3af0dd;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+.left .button:hover{
+    background-color: #3af0dd;
+    color: black;
+}
+.left div{
+    margin-top: 100px;
+   
+}
+.left div img{
+    margin-left: 20px;
+    width: 30px;
+     background-color: white;
+     border-radius: 5px;
+     transition: 0.6s;
+}
+.left div img:hover{
+    background-color: #3af0dd;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+.right img{
+    width: 500px;
+    position: absolute;
+    left: 55%;
+    top: 1%;
+    transition: 0.5s;
+    transition-property: all;
+    background: transparent;
+}
+.aboutsec{
+    margin-left: 17%;
+    color: white;
+}
+.sectop .aboutme{
+    
+    font-size: 3em;
+    text-align: center;
+    color: #3af0dd;
+    margin-top: 190px;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+.sectop .aboutme:hover{
+    letter-spacing: 16px;
+}
+.sectop .dis{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.sectop .dis2{
+    width: 700px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.sectop .edu{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #3af0dd;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.sectop .edu:hover{
+    letter-spacing: 15px;
+}
+.Education{
+    list-style: none;
+    margin: 10px;
+    margin-top: 50px;
+}
+.Education li{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.ski{
+    color: white;
+}
+.skill #sk{
+    font-size: 3em;
+    margin-left: 17%;
+    letter-spacing: 2px;
+    color: #3af0dd;
+    text-align: center;
+    margin-bottom: 80px;
+    transition: 0.5s;
+}
+ #sk:hover{
+    letter-spacing: 15px;
+}
+.skill .ps{
+    margin-left: 17%;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.pbar{
+    position: absolute;
+    left:17%;
+    color: rgb(255, 253, 253);
+}
+#sname{
+    margin-left: 17%;
+    margin-bottom: 29px;
+    color: white;
+    width: 450px;
+    box-shadow: 5px 0px 18px rgb(182, 179, 179);
+}
+#sname h3{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#sname .bar{
+    height: 5px;
+    background-color: aqua;
+    width: 90%;
+}
+#sname .cbar{
+    height: 5px;
+    background-color: aqua;
+    width: 65%;
+}
+#sname .c-bar{
+    height: 5px;
+    background-color: aqua;
+    width: 85%;
+}
+#sname .p-bar{
+    height: 5px;
+    background-color: aqua;
+    width: 75%;
+}
+.work img{
+    position: absolute;
+    left: 62%;
+    top: 111em;
+    width: 400px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.work img:hover{
+    width: 420px;
+}
+.contact{
+    margin-left: 17%;
+    margin-top: 190px;
+}
+.logo p{
+    color: #3af0dd;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 5px;
+    transition: .5s;
+    margin-bottom: 50px;
+}
+.logo p:hover{
+    letter-spacing: 15px;
+}
+.contactform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 30px;
+    background: transparent;
+    color: #3af0dd;
+    font-size: 15px;
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+}
+textarea{
+    margin-bottom: 15px;
+    background: transparent;
+    color: #3af0dd;
+    font-size: 15px;
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+}
+button{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    cursor: pointer;
+    border: 2px solid #3af0dd;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    transition: 0.6s;
+}
+button:hover{
+    background-color: #3af0dd;
+    width: 150px;
+    color: black;
+}
